@@ -6,7 +6,7 @@ const conn=new Client({
     host:"localhost",
     user:"postgres",
     port:5432,
-    password:"12345",
+    password:process.env.PASSWORD,
     database:"demoDb"
 })
 
